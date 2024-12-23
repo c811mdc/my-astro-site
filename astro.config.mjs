@@ -1,5 +1,6 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  site: 'https://c811mdc.github.io/my-astro-site/', // URLを設定
+  outDir: 'dist', // 出力フォルダ
+});
